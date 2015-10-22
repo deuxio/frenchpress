@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby "2.2.0"
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.4'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -42,5 +42,10 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "quiet_assets"
+  gem "pry-rails"
+  gem "pry-byebug"
 end
 
