@@ -59,4 +59,4 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem "figaro"
 gem 'feedjira'
-
+gem 'devise'
