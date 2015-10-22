@@ -53,3 +53,8 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem "figaro"
+
+group :production do
+  gem 'rails_12factor'
+  gem 'puma'
+end
