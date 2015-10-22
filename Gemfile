@@ -60,3 +60,4 @@ gem 'simple_form'
 gem "figaro"
 gem 'feedjira'
 gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
